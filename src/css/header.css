@@ -124,10 +124,9 @@ main.app {
   display: none !important;
 }
 
-/* Центруємо кнопку Load More */
 .load-more {
-  display: block;           /* щоб працював margin auto */
-  margin: 20px auto;        /* вертикально 20px, горизонтально центр */
+  display: block;
+  margin: 20px auto;
   padding: 10px 20px;
   border-radius: 6px;
   border: 1px solid #ccc;

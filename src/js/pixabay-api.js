@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = '53639164-946eeba40ce7ee6acba66c1a5'; // <-- встав свій ключ
+const API_KEY = '53639164-946eeba40ce7ee6acba66c1a5';
 const BASE_URL = 'https://pixabay.com/api/';
 const PER_PAGE = 15;
 
@@ -16,6 +16,5 @@ export async function getImagesByQuery(query, page = 1) {
   };
 
   const response = await axios.get(BASE_URL, { params });
-  // повертаємо data повністю (mentor просив повертати data)
   return response.data;
 }

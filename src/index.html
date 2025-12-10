@@ -10,16 +10,13 @@
 <body>
     <main class="app">
       <form class="form" id="search-form">
-        <label>
-          <input
-            type="text"
-            id="search-input"
-            name="search-text"
-            placeholder="Search images..."
-            required
-          />
-
-        </label>
+        <input
+          type="text"
+          id="search-input"
+          name="search-text"
+          placeholder="Search images..."
+          required
+        />
         <button type="submit">Search</button>
       </form>
 
@@ -27,7 +24,7 @@
 
       <button id="load-more-btn" class="load-more is-hidden">Load more</button>
 
-      <div id="loader" class="loader is-hidden"></div>
+      <span id="loader" class="loader is-hidden"></span>
     </main>
 
     <script type="module" src="main.js"></script>
